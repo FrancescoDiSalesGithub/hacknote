@@ -7,7 +7,7 @@ create table hack_note
         note serial,
 
         primary key(code),
-        foreign key note references hack_voice(note)
+        foreign key (note) references hack_voice(note)
 
 );
           
